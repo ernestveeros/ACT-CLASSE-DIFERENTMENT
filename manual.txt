@@ -1,11 +1,14 @@
 MANUAL D'US
 
+cd ACT-CIBER-DIFERENTMET
+ls -l
+sudo chmod +x installation.sh
+sudo su
+./installation.sh
+
 SSH:
 
-UNA VEGADA INSTAL·LAT TOT, COMPOVEM:
-- sudo systemctl start ssh
-- sudo systemctl enable ssh
-- sudo systemctl status ssh
+ja ve predeterminat, per comprovar-ho: 
 
 ÚS DE HYDRA (no em faig càrrec del mal ús d'aquest manual en cap moment).
 COMANDA:
